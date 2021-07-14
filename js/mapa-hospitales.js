@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $("#abrir").click(function(){
+        $(".popup").show();
+    });
+    $("#cerrar").click(function(){
+        $(".popup").hide();
+    });
+    $("#abrir1").click(function(){
+        $(".popup1").show();
+    });
+    $("#cerrar1").click(function(){
+        $(".popup1").hide();
+    });
+    $("#abrir2").click(function(){
+        $(".popup2").show();
+    });
+    $("#cerrar2").click(function(){
+        $(".popup2").hide();
+    });
+});

@@ -1,0 +1,173 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Lemonada&family=Work+Sans&display=swap');
+@import '../fonts/fuentes.css';
+@import 'all.css';*/
+
+.imagenCoronavirus {
+    height: 100%;
+    width: 100%;
+}
+
+.containerCoronavirus {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerImgCoronavirus {
+    flex: 0.45;
+}
+
+.containerDescripcion{
+    flex: 0.5;
+}
+
+.descripcionCoronavirus{   
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.containerTest{
+    display: flex;
+   /* justify-content: space-between;*/
+}
+
+/*.containerDescripcionTest{
+    display: flex;
+    flex-direction: row;
+    flex:0.5;
+}*/
+
+/*.descripcionTest{
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: justify;
+
+}*/
+/*.containerFormularioTest{
+    display:flex;
+    flex: 0.45;
+}*/
+
+/*.itemsFormulario {
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: justify;
+    border-radius: 1em;
+    height: 2em;
+    display: inline-block;
+    width: fit-content;;
+}*/
+
+.contenedorSintomasHabituales{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.descripcionSintoma {
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: medium;
+}
+
+.imagenSintoma{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descripcionSintomaFinal{
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: large;
+
+}
+
+.subtitulosCovid{
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-bottom: 1em;   
+}
+
+.contenedorDescripcionFinalSintomas{
+    border-color: black;
+    border: outset;
+}
+.imagenPrevencionCovid{
+    height: 450px;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.titulosCovid{
+    padding: 9px;
+    background-color: aliceblue;
+    font-size: x-large;;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 1em;
+    margin-bottom: 1em;   
+}
+
+
+#pais{
+    display: none;
+}
+#direccion{
+    display: none;
+}  
+.contenedorFormulario{
+    display: flex;
+}
+.contenedorFormulario div{
+    flex-wrap:wrap;
+    flex-direction: column;
+
+}
+.containerTest article{
+    width: calc(50% - 2em);
+    padding: 1em
+}
+.display-button{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.display-button label{
+    display: block;
+   
+}
+.item-input{
+    display: block;
+    justify-content: space-between;
+    
+}
+.margenCampos{
+    margin-bottom: 0.5em;
+}
+#color-formulario{
+    background-color: rgba(208, 198, 198, 0.796);
+    border-radius: 0.5em;
+    opacity: 0.8;
+}
+#flex-formulario{
+    display: flex;
+    flex-direction: column;
+}
+#campo-linea{
+    display: inline;
+}
+.boton-enviar-test{
+    display: inline-block;
+    width: 6em;
+    height: 2em;
+    border-radius: 0.3em;
+   
+}

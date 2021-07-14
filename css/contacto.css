@@ -1,0 +1,52 @@
+/*Estilos del main de contacto*/
+.contenedor-contacto{
+    display: flex;
+    justify-content: space-around;
+    padding: 3em;
+}
+.contenedor-contacto article{
+    width: calc(50% - 2em);
+    padding: 1em;;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+.main-contacto{
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+.mapa-contacto{
+    margin: auto;
+    text-align: center;
+}
+.mapa-contacto iframe{
+    width: 100%;
+    height: 300px;
+}
+/*.input-formulario{
+    border-radius: 1em;
+    height: 2em;
+ 
+}*/
+.box-mensaje{
+    height: 7em;
+    /*border-radius: 1em;*/
+    box-sizing: border-box;
+    padding: 2em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    
+}
+.boton-contacto{
+    display: inline-block;
+    width: 5em;
+    height: 2em;
+    border-radius: 0.3em;
+   
+}
+#color-formulario{
+    background-color: rgba(208, 198, 198, 0.796);
+    border-radius: 0.5em;
+    opacity: 0.8;
+}

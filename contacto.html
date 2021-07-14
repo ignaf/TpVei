@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <script src="js/contacto.js"></script>
+</head>
+
+<body>
+    <header class="estilosheader">
+        <div>
+            <img src="img/LOGOTUPARAISO.png" alt="" class="imagenlogo">
+        </div>
+        <div>
+            <form class="contenedorbuscador" action="#" method="post">
+            </form>
+        </div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main class="main-contacto">
+        <section class="contenedor-contacto">
+            <article id="color-formulario">
+                <h2>CONTACTO</h2>
+                <form class="contacto" action="#" onsubmit="return validar()"
+                    enctype="application/x-www-form-urlencoded">
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" class="input-formulario">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" class="input-formulario">
+                    <label for="tel">Telefono:</label>
+                    <input type="tel" name="tel" id="tel" class="input-formulario">
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" class="input-formulario">
+                    <label for="mensaje"></label>
+                    <input type="long text" id="mensaje" name="mensaje" class="box-mensaje"
+                        onkeyup="contarCaracteres()">
+                    <p><span id="caracteres"></span>/1000</p>
+
+                    <div id="mensajes" class="error">
+
+                    </div>
+                    <button class="boton-contacto">Enviar</button>
+                </form>
+            </article>
+
+            <article class="datos-contacto">
+                <h2>DATOS DE CONTACTO</h2>
+                <P>Direcc&iacute;n: Florencio Varela 1903 (B1754JEC) </P>
+                <p>Tel&eacute;fonos: (+5411) 4480-8900 </p>
+                <p>Celular: 11-4480-8900</p>
+                <p>info@unlam.edu.ar</p>
+                <a href="https://www.unlam.edu.ar/"></a>
+            </article>
+        </section>
+
+
+    </main>
+
+    <footer class="estilosfooter">
+        <div>
+            <h3>Datos del grupo</h3>
+            <ul>
+                <li>
+                    <p>Focas, Ignacio</p>
+                </li>
+                <li>
+                    <p>Delfino, Julieta Luc&iacute;a DNI 38.939.695</p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Menu inferior</h3>
+            <ul class="menuinferior">
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div>
+
+            <div class="contenedorredessociales">
+                <h3>Redes sociales:</h3>
+                <a href="https://www.facebook.com/tuparaisodd"><i class="fab fa-facebook" class="redesSociales"></i></a>
+                <a href="https://www.instagram.com/estetica.tu.paraiso/"><i class="fab fa-instagram"
+                        class="redesSociales"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
