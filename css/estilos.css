@@ -103,16 +103,9 @@ main{
 
 /*Estilos del footer!!*/
 .estilosfooter{
-    display: flex;
+    background-color: #D5EAE4 !important;
 }
-.menuinferior a{
-    text-decoration: none;
-     display: block;
-     padding: 5px;
-}
-.estilosfooter li{
-    list-style: none;
-}
+
 
 
 /*Estilos del main pagina index*/
@@ -240,36 +233,5 @@ main{
         font-size: 3em;
     }
 
-    /*Estilos footer*/
-    .estilosfooter{
-        display: flex;
-        justify-content: space-around;
-        padding: 0.5em;
-    }
-    .menuinferior{
-        display: flex;
-        flex-direction: column;
-        line-height: 0.3em; 
-    }
-    .menuinferior a{
-        padding: 1em;
-    }
-    .estilosfooter div{
-        width: calc(33% - 1em); 
-        margin: 1.5em;
-    }
     
-    .contenedorredessociales{
-    display: flex;
-    flex-wrap: no-wrap;
-    }
-    .contenedorredessociales a{
-        margin-right: 2em;
-    }
-
-    .contenedorredessociales i{
-    display: inline-block;
-    font-size:  2.5em;
-    /*margin-right: 0.5em; */ 
-    }
 }

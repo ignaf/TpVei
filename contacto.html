@@ -6,8 +6,8 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/contacto.css">
-    <script src="js/contacto.js"></script>
-</head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   </head>
 
 <body>
     <header class="estilosheader">
@@ -25,75 +25,73 @@
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
-    <main class="main-contacto">
-        <section class="contenedor-contacto">
-            <article id="color-formulario">
-                <h2>CONTACTO</h2>
-                <form class="contacto" action="#" onsubmit="return validar()"
-                    enctype="application/x-www-form-urlencoded">
-
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre" class="input-formulario">
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido" id="apellido" class="input-formulario">
-                    <label for="tel">Telefono:</label>
-                    <input type="tel" name="tel" id="tel" class="input-formulario">
-
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" class="input-formulario">
-                    <label for="mensaje"></label>
-                    <input type="long text" id="mensaje" name="mensaje" class="box-mensaje"
-                        onkeyup="contarCaracteres()">
-                    <p><span id="caracteres"></span>/1000</p>
-
-                    <div id="mensajes" class="error">
-
+    <main>
+             <div class="container mt-5 mb-5 d-flex justify-content-center">
+            <div class="card px-1 py-4">
+                <div class="card-body">
+                    <h6 class="card-title mb-3">Este turno es para</h6>
+                    <div class="d-flex flex-row"> <label class="radio mr-1"> <input type="radio" name="add" value="anz" checked> <span> <i class="fa fa-asterisk"></i> HIMFU </span> </label> <label class="radio"> <input type="radio" name="add" value="add"> <span> <i class="fa fa-plus-circle"></i> Agregar </span> </label> </div>
+                    <h6 class="information mt-4">Datos personales</h6>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                 <input class="form-control" type="text" placeholder="Nombre y apellido"> </div>
+                        </div>
                     </div>
-                    <button class="boton-contacto">Enviar</button>
-                </form>
-            </article>
-
-            <article class="datos-contacto">
-                <h2>DATOS DE CONTACTO</h2>
-                <P>Direcc&iacute;n: Florencio Varela 1903 (B1754JEC) </P>
-                <p>Tel&eacute;fonos: (+5411) 4480-8900 </p>
-                <p>Celular: 11-4480-8900</p>
-                <p>info@unlam.edu.ar</p>
-                <a href="https://www.unlam.edu.ar/"></a>
-            </article>
-        </section>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <div class="input-group"> <input class="form-control" type="text" placeholder="Teléfono"> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <div class="input-group"> <input class="form-control" type="text" placeholder="Email"> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" d-flex flex-column text-center px-5 mt-3 mb-3"> <small class="agree-text">Reservando este turno aceptas nuestros</small> <a href="#" class="terms">Términos & Condiciones</a> </div> 
+                    <button class="btn btn-primary btn-block confirm-button">Confirm</button>
+                </div>
+            </div>
+        </div>
 
 
     </main>
 
-    <footer class="estilosfooter">
-        <div>
-            <h3>Datos del grupo</h3>
-            <ul>
-                <li>
-                    <p>Focas, Ignacio</p>
-                </li>
-                <li>
-                    <p>Delfino, Julieta Luc&iacute;a DNI 38.939.695</p>
-                </li>
-            </ul>
+    <footer class="bg-light text-center text-white" style="background-color: #D5EAE4 !important;">
+   
+        <div class="container p-4 pb-0 " style="background-color: #D5EAE4;">
+         
+          <section class="mb-4" style="background-color: #D5EAE4;">
+            
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="https://www.facebook.com/tuparaisodd"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="https://www.instagram.com/estetica.tu.paraiso/"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+           
+          </section>
+          
         </div>
-        <div>
-            <h3>Menu inferior</h3>
-            <ul class="menuinferior">
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+    
+        <div class="text-center p-3" style="background-color: #4f9cad;">
+          © Delfino, Julieta Luc&iacute;a DNI 38.939.695 / Focas, Ignacio Nicolás DNI 38.943.747
         </div>
-        <div>
-
-            <div class="contenedorredessociales">
-                <h3>Redes sociales:</h3>
-                <a href="https://www.facebook.com/tuparaisodd"><i class="fab fa-facebook" class="redesSociales"></i></a>
-                <a href="https://www.instagram.com/estetica.tu.paraiso/"><i class="fab fa-instagram"
-                        class="redesSociales"></i></a>
-            </div>
-        </div>
-    </footer>
+     
+      </footer>
 
 </body>
 
